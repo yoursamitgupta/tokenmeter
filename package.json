@@ -1,0 +1,36 @@
+{
+  "name": "tokenmeter",
+  "version": "1.0.0",
+  "description": "Zero-dependency local multi-provider LLM token and cost monitoring HUD for developers. Tracks spend, velocity, and budget limits across OpenAI, Anthropic, Gemini, and Groq with 100% local privacy.",
+  "main": "src/index.js",
+  "bin": {
+    "tokenmeter": "bin/tokenmeter.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "node bin/tokenmeter.js"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "tokens",
+    "pricing",
+    "cost-tracker",
+    "openai",
+    "anthropic",
+    "gemini",
+    "budget",
+    "developer-tools"
+  ],
+  "author": "Amit Gupta <32707843+yoursamitgupta@users.noreply.github.com> (https://github.com/yoursamitgupta)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoursamitgupta/tokenmeter.git"
+  },
+  "homepage": "https://github.com/yoursamitgupta/tokenmeter#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
